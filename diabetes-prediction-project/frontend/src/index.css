@@ -1,0 +1,60 @@
+/* Gradient Background */
+
+.predict {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Styling */
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Center Content */
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  /* Slight transparency */
+  padding: 2rem;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  /* Frosted glass effect */
+}
+
+/* Button Styling */
+
+.btn-primary {
+  background-color: #ff758c;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff5e78;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #fff;
+  color: #ff758c;
+}
+
+/* Result Card */
+
+.card.result-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+}
