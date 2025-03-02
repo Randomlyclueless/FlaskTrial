@@ -1,4 +1,6 @@
 Diabetes Prediction System 🩺💻
+
+
 This project is a web-based diabetes prediction tool that uses machine learning to assess the likelihood of a person having diabetes based on key health indicators.
 
 🚀 Features
